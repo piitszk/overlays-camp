@@ -1,6 +1,5 @@
 import { useTournamentStore } from "@/stores/useTournamentStore";
 import {  CDN_CREWS, SERVER_LOGO } from "../../lib/utils";
-import HeaderDetail from "../../assets/header-detail.svg?react"
 import LineWithShapedBorder from "../../assets/line-with-shaped-border.svg?react";
 import ImageFrame from "../../assets/image-frame.svg?react";
 import WinnerBg from "../../assets/winner-bg.svg?react"
@@ -34,7 +33,7 @@ export default function Winner(){
     const label = (ranking.name && ranking.tag) ? (ranking.tag + " / " + ranking.name) : "N/A" 
     const points = ranking[1]?.points ? (ranking[1]?.points + " Abates") : "N/A" 
     const avatar = ranking[1]?.guild?.avatar ? `${CDN_CREWS}/${ranking[1].guild.avatar}` : SERVER_LOGO 
-    const name = ranking[1]?.name
+    // const name = ranking[1]?.name
 
     return (
         <div className={wrapperClass}>

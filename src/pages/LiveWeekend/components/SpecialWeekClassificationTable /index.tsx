@@ -3,7 +3,6 @@ import { TableRow } from "../Clippings";
 import { CDN_CREWS, CDN_AVATARS, SERVER_LOGO } from "../../lib/utils"
 import HeaderEdge from "../../assets/header-edge.svg?react"
 import Textura from '../../assets/textura.svg?react'
-import { IsoscelesTrapezium } from "../Clippings";
 import CheckIcon from "../../assets/check-icon.svg?react"
         // todo: corrigir dados
 
