@@ -55,6 +55,7 @@ export default function RankingMvpBadge() {
                             backgroundPositionX: 'center',                           
                         }}
                         >
+                            <span className="text-kanit text-[5rem] font-bold leading-relaxed absolute -top-[5rem] ">4º</span>
                     <div className="relative bottom-[.25rem]">
                         <div
                             className="absolute top-[5rem] left-1/2 -translate-x-1/2 -translate-y-1/2 hex w-[6.6rem] h-[7.68rem] bg-contain bg-no-repeat"
@@ -65,7 +66,7 @@ export default function RankingMvpBadge() {
                         </div>
                         <ImageFrame className="z-10 w-[10rem] h-[10rem]" />
                         <div className="flex flex-col items-center justify-center gap-[.75rem] mt-[1rem]">
-                            <span className="ftext-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
+                            <span className="text-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
 
                             <div className="flex items-center justify-center w-[9.5rem] h-[2.25rem] ">
                                 <span className="text-bignoodle text-nowrap text-[#FFCA2AF5] font-normal text-[2.5rem] ">{points}</span>
@@ -81,6 +82,7 @@ export default function RankingMvpBadge() {
                             backgroundPositionX: 'center',                           
                         }}
                         >
+                            <span className="text-kanit text-[5rem] font-bold leading-relaxed absolute -top-[5rem] ">2º</span>
                     <div className="relative bottom-[.25rem]">
                         <div
                             className="absolute top-[5rem] left-1/2 -translate-x-1/2 -translate-y-1/2 hex w-[6.6rem] h-[7.68rem] bg-contain bg-no-repeat"
@@ -91,7 +93,7 @@ export default function RankingMvpBadge() {
                         </div>
                         <ImageFrame className="z-10 w-[10rem] h-[10rem]" />
                         <div className="flex flex-col items-center justify-center gap-[.75rem] mt-[1rem]">
-                            <span className="ftext-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
+                            <span className="text-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
 
                             <div className="flex items-center justify-center w-[9.5rem] h-[2.25rem] ">
                                 <span className="text-bignoodle text-nowrap text-[#FFCA2AF5] font-normal text-[2.5rem] ">{points}</span>
@@ -108,6 +110,8 @@ export default function RankingMvpBadge() {
                            
                         }}
                         >
+                            <span className="text-kanit text-[5rem] font-bold leading-relaxed absolute -top-[5rem] ">1º</span>
+
                     <div className="relative bottom-[.25rem]">
                         <div
                             className="absolute top-[5.6rem] left-1/2 -translate-x-1/2 -translate-y-1/2 hex w-[8.3rem] h-[9.6rem] bg-contain bg-no-repeat"
@@ -118,7 +122,7 @@ export default function RankingMvpBadge() {
                         </div>
                         <ImageFrame className="z-10 w-[10rem] h-[11rem]" />
                         <div className="flex flex-col items-center justify-center gap-[.75rem] mt-[1rem]">
-                            <span className="ftext-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
+                            <span className="text-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
 
                             <div className="flex items-center justify-center w-[9.5rem] h-[2.25rem] ">
                                 <span className="text-bignoodle text-nowrap text-[#FFCA2AF5] font-normal text-[3rem] ">{points}</span>
@@ -140,6 +144,7 @@ export default function RankingMvpBadge() {
                             backgroundPositionX: 'center',                           
                         }}
                         >
+                            <span className="text-kanit text-[5rem] font-bold leading-relaxed absolute -top-[5rem] ">3º</span>
                     <div className="relative bottom-[.25rem]">
                         <div
                             className="absolute top-[5rem] left-1/2 -translate-x-1/2 -translate-y-1/2 hex w-[6.6rem] h-[7.68rem] bg-contain bg-no-repeat"
@@ -150,7 +155,7 @@ export default function RankingMvpBadge() {
                         </div>
                         <ImageFrame className="z-10 w-[10rem] h-[10rem]" />
                         <div className="flex flex-col items-center justify-center gap-[.75rem] mt-[1rem]">
-                            <span className="ftext-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
+                            <span className="text-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
 
                             <div className="flex items-center justify-center w-[9.5rem] h-[2.25rem] ">
                                 <span className="text-bignoodle text-nowrap text-[#FFCA2AF5] font-normal text-[2.5rem] ">{points}</span>
@@ -166,6 +171,7 @@ export default function RankingMvpBadge() {
                             backgroundPositionX: 'center',                           
                         }}
                         >
+                            <span className="text-kanit text-[5rem] font-bold leading-relaxed absolute -top-[5rem] ">5º</span>
                     <div className="relative bottom-[.25rem]">
                         <div
                             className="absolute top-[5rem] left-1/2 -translate-x-1/2 -translate-y-1/2 hex w-[6.6rem] h-[7.68rem] bg-contain bg-no-repeat"
@@ -176,7 +182,7 @@ export default function RankingMvpBadge() {
                         </div>
                         <ImageFrame className="z-10 w-[10rem] h-[10rem]" />
                         <div className="flex flex-col items-center justify-center gap-[.75rem] mt-[1rem]">
-                            <span className="ftext-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
+                            <span className="text-kanit text-[1.29rem] font-bold leading-relaxed">{label}</span>
 
                             <div className="flex items-center justify-center w-[9.5rem] h-[2.25rem] ">
                                 <span className="text-bignoodle text-nowrap text-[#FFCA2AF5] font-normal text-[2.5rem] ">{points}</span>
