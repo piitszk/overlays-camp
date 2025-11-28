@@ -45,7 +45,7 @@ function TournamentFilter(){
     { text: "TABELA", value: "placements" },
     { text: "TOP 20 MVP GERAL", value: "mvp" },
     // { text: "CLASSIFICAÇÃO SEMANAL", value: "classificationtable" },   
-    { text: "CLASSIFICAÇÃO ESPECIAL", value: "specialclassificationtable" },   
+    // { text: "CLASSIFICAÇÃO ESPECIAL", value: "specialclassificationtable" },   
     { text: "MVP TOP 5", value: "rankingmvpbadge" },     
   ]
 
