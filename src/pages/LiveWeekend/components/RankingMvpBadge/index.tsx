@@ -6,7 +6,7 @@ import BlueFlag from '../../assets/blue-flag.svg'
 import GoldenFlag from '../../assets/golden-flag.svg'
 
 function getUser(user: { name: string, tag: string, avatar: string, points: number, guild?: { avatar?: string } }) {
-    const label = (user.name && user.tag) ? (user.tag + " / " + user.name) : "N/A"
+    const label = (user?.name && user?.tag) ? (user.tag + " / " + user.name) : "N/A"
     const points = user?.points ? (user?.points + " Abates") : "N/A"
     const avatar = user?.guild?.avatar ? `${CDN_CREWS}/${user.guild.avatar}` : SERVER_LOGO
     return { label, points, avatar }
@@ -20,7 +20,7 @@ export default function RankingMvpBadge() {
 
     // TODO: mudar Dados
     const ranking = useTournamentStore((state) => {
-        return state.ranking.all.rankingmvpbadge.slice(0, 5)
+        return state.ranking?.all?.rankingmvpbadge?.slice(0, 5) || []
     })
 
     let title = "MVP"
